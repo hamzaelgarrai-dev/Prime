@@ -20,22 +20,22 @@ export default function Navbar (){
 
         
 
-        <header className="absolute top-0 left-0 w-full z-50 ">
+        <header className="absolute top-0 left-0 w-full z-50">
 
             <div className="bg-[#042433] text-white py-4 px-4">
-        <div className="max-w-[1220px] mx-auto flex justify-between items-center">
+        <div className="max-w-[1080px] mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-6">
             <div className="flex items-center gap-3">
               <Phone className="w-3.5 h-3.5" />
-              <span className="text-sm">{CONTACT_INFO.phone}</span>
+              <span className="text-xs">{CONTACT_INFO.phone}</span>
             </div>
             <div className="hidden md:flex items-center gap-2">
               <Mail className="w-3.5 h-3.5" />
-              <span className="text-sm">{CONTACT_INFO.email}</span>
+              <span className="text-xs">{CONTACT_INFO.email}</span>
             </div>
             <div className="hidden lg:flex items-center gap-2">
               <MapPin className="w-3.5 h-3.5" />
-              <span className="text-sm">{CONTACT_INFO.address}</span>
+              <span className="text-xs">{CONTACT_INFO.address}</span>
             </div>
           </div>
           <div className="flex items-center space-x-3">
@@ -65,7 +65,7 @@ export default function Navbar (){
 
 
             <nav className="bg-white/2 backdrop-blur-md py-4 px-4">     
-   <div className="max-w-[1220px] mx-auto flex justify-between items-center">
+     <div className="max-w-[1080px] mx-auto flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center ">
             <NextImage
@@ -81,42 +81,45 @@ export default function Navbar (){
           <div className="hidden md:flex items-center justify-between flex-1.5 ml-2">
             <div className="flex space-x-8">
               <Link href="/" 
-             className={`transition-colors text-md font-bold mt-2 ${
+             className={`transition-colors text-md font-medium mt-2 ${
                   pathname === "/" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
                 }`}
               >
                 Accueil
               </Link>
               <Link href="/a-propos" 
- className={`transition-colors text-md font-bold mt-2 ${
+              className={`transition-colors text-md font-medium mt-2 ${
                   pathname === "/a-propos" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
                 }`}
               >                à propos
               </Link>
               <Link href="/businessUnits" 
-className={`transition-colors text-md font-bold mt-2 ${
+              className={`transition-colors text-md font-medium mt-2 ${
                   pathname === "/businessUnits" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
                 }`}
               >                business units
               </Link>
               <Link href="/secteurs-activite" 
-className={`transition-colors text-md font-bold mt-2 ${
+              className={`transition-colors text-md font-medium mt-2 ${
                   pathname === "/secteurs-activite" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
                 }`}
               >                Secteurs d&apos;activité
               </Link>
               <Link href="/nous-rejoindre" 
-                className={`transition-colors text-md font-bold mt-2 ${
+                className={`transition-colors text-md font-medium mt-2 ${
                   pathname === "/nous-rejoindre" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
                 }`}
               >
                 Nous rejoindre
               </Link>
-      <a
-  href="https://www.linkedin.com/company/p-prime/posts/?feedView=all"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-[#ffffff] text-[#002639] text-xs px-6 py-3 rounded-full flex items-center gap-1 font-bold transition-all group
+       
+            </div>
+
+            <a
+         href="https://www.linkedin.com/company/p-prime/posts/?feedView=all"
+         target="_blank"
+         rel="noopener noreferrer"
+         className="bg-[#ffffff] text-[#002639] text-xs px-6 py-3 ml-32 rounded-full flex items-center gap-1 font-bold transition-all group
              hover:bg-[#3da5d9] hover:text-white"
 >
           Découvrez pprimer
@@ -124,13 +127,14 @@ className={`transition-colors text-md font-bold mt-2 ${
             className="bg-[#002639] border border-white w-6 h-6 rounded-2xl ml-2  flex items-center justify-center transition-all
                        group-hover:bg-[#3da5d9] group-hover:border-white"
           >
+
+            
             <ArrowUpRight
               className="w-4 h-4 text-white transition-transform duration-300 rotate-45
                          group-hover:rotate-0 group-hover:text-[#ffffff]"
             />
           </div>
         </a>
-            </div>
            
           </div>
 

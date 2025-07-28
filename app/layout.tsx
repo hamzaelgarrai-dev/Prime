@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google"
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 
 export const metadata: Metadata = {
@@ -27,8 +28,9 @@ export default function RootLayout({
 
         <Navbar></Navbar>
 
+        <main>{children}</main>
 
-        {children}
+        <Footer></Footer>
 
       </body>
     </html>
