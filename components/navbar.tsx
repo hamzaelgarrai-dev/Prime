@@ -119,7 +119,7 @@ export default function Navbar (){
          href="https://www.linkedin.com/company/p-prime/posts/?feedView=all"
          target="_blank"
          rel="noopener noreferrer"
-         className="bg-[#ffffff] text-[#002639] text-xs px-6 py-3 ml-32 rounded-full flex items-center gap-1 font-bold transition-all group
+         className="bg-[#ffffff] text-[#002639]  text-xs px-6 py-3 ml-32 rounded-full flex items-center gap-1 font-bold transition-all group
              hover:bg-[#3da5d9] hover:text-white"
 >
           Découvrez pprimer

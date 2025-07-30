@@ -1,24 +1,23 @@
 
-import Image from "next/image";
+import Hero from "@/components/hero";
+import HeroButtomCard from "@/components/hero_buttom-card";
+import StatsBanner from "@/components/stats_banner";
 export default function Home() {
   return (
 
-    <main>
-      <section className="relative w-full h-[1207px] overflow-hidden">
-        <div className=" absolute inset-0 -z-10">
+    <>
 
-          <Image 
-          src="/Assets/hero.png"
-          alt="Hero Background"
-          width={1200} // set desired width
-          height={600} // set desired height
-          quality={100}
-          className="w-full h-auto object-contain"
-           />
+    <Hero></Hero>
+    
+    <HeroButtomCard></HeroButtomCard>
+    <StatsBanner></StatsBanner>
+    
+    
+    </>
 
-        </div>
-      </section>
-    </main>
+
+
+    
     
   );
 }
