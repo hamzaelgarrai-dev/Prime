@@ -81,32 +81,32 @@ export default function Navbar (){
           <div className="hidden md:flex items-center justify-between flex-1.5 ml-2">
             <div className="flex space-x-8">
               <Link href="/" 
-             className={`transition-colors text-md font-medium mt-2 ${
+             className={`transition-colors text-md font-semibold mt-2 ${
                   pathname === "/" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
                 }`}
               >
                 Accueil
               </Link>
               <Link href="/a-propos" 
-              className={`transition-colors text-md font-medium mt-2 ${
+              className={`transition-colors text-md font-semibold mt-2 ${
                   pathname === "/a-propos" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
                 }`}
               >                à propos
               </Link>
               <Link href="/businessUnits" 
-              className={`transition-colors text-md font-medium mt-2 ${
+              className={`transition-colors text-md font-semibold mt-2 ${
                   pathname === "/businessUnits" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
                 }`}
               >                business units
               </Link>
               <Link href="/secteurs-activite" 
-              className={`transition-colors text-md font-medium mt-2 ${
+              className={`transition-colors text-md font-semibold mt-2 ${
                   pathname === "/secteurs-activite" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
                 }`}
               >                Secteurs d&apos;activité
               </Link>
               <Link href="/nous-rejoindre" 
-                className={`transition-colors text-md font-medium mt-2 ${
+                className={`transition-colors text-md font-semibold mt-2 ${
                   pathname === "/nous-rejoindre" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
                 }`}
               >
