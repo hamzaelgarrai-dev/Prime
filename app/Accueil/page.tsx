@@ -2,6 +2,7 @@
 import APROPOS from "@/components/a_propos";
 import Hero from "@/components/hero";
 import HeroButtomCard from "@/components/hero_buttom-card";
+import Partenaires from "@/components/partenaires";
 import SecteurActivite from "@/components/secteur_activite";
 import StatsBanner from "@/components/stats_banner";
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
     <StatsBanner></StatsBanner>
     <SecteurActivite></SecteurActivite>
     <APROPOS></APROPOS>
+    <Partenaires></Partenaires>
     
     
     </>

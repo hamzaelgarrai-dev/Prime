@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 export default function APROPOS(){
     return(
         
-            <section className="relative w-full h-[880px]">
+            <section className="relative w-full h-[720px]">
                 
 
                     <Image 
@@ -16,7 +16,7 @@ export default function APROPOS(){
                        />
 
 
-                <div className="absolute bg-[#042433] w-[580px] h-[325px] bottom-105 left-1/2 transform -translate-x-1/2  flex flex-col justify-between items-center">
+                <div className="absolute bg-[#042433] w-[580px] h-[325px] bottom-65 left-1/2 transform -translate-x-1/2  flex flex-col justify-between items-center">
 
                     <h2 className="text-white font-bold text-[27px] pt-16 ">À PROPOS DE NOUS</h2>
                     <div className="text-[#CBCBCB] pb-36  max-w-[390px] text-[14px] font-medium">
