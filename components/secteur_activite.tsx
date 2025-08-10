@@ -46,7 +46,6 @@ export default function SecteurActivite() {
                         width={280}
                         height={280}
                         quality={100}
-                        className=""
                         />
 
                         <div className="flex flex-col pl-8">
