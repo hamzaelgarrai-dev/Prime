@@ -18,12 +18,12 @@ export default function SecteurActivite() {
                     <div className="flex flex-row items-center justify-around bg-[#DFEAEF17] border border-gray-300 ">
                         
                         <Image
-                        src='/Assets/frame 32.png'
+                        src='/Assets/frame_32.png'
                         alt="frame32"
                         width={280}
                         height={280}
                         quality={100}
-                        className=""
+                        
                         />
 
                         <div className="flex flex-col pl-8">
@@ -41,7 +41,7 @@ export default function SecteurActivite() {
                     <div className="flex flex-row items-center justify-between  bg-[#DFEAEF17] border border-gray-300">
 
                         <Image
-                        src='/Assets/frame 33.png'
+                        src='/Assets/frame_33.png'
                         alt="frame33"
                         width={280}
                         height={280}
@@ -61,12 +61,12 @@ export default function SecteurActivite() {
                     <div className="flex flex-row items-center justify-between  bg-[#DFEAEF17] border border-gray-300">
 
                         <Image
-                        src='/Assets/frame 34.png'
+                        src='/Assets/frame_34.png'
                         alt="frame34"
                         width={280}
                         height={280}
                         quality={100}
-                        className=""
+                        
                         />
 
                         <div className="flex flex-col pl-8">
@@ -82,12 +82,12 @@ export default function SecteurActivite() {
                     <div className="flex flex-row items-center justify-between  bg-[#DFEAEF17] border border-gray-300">
 
                         <Image
-                        src='/Assets/frame 35.png'
+                        src='/Assets/frame_35.png'
                         alt="frame35"
                         width={280}
                         height={280}
                         quality={100}
-                        className=""
+                        
                         />
 
                         <div className="flex flex-col pl-8">
