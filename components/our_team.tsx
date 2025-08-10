@@ -2,7 +2,7 @@ import Image from "next/image"
 export default function OurTeam(){
 
     return(
-        <div className="bg-white w-full h-[700px] mb-40">
+        <div className="bg-white w-full h-[740px] mb-30">
 
             <div className="max-w-[1080px] mx-auto flex flex-col justify-center items-center text-center pt-32">
                 <h2 className="font-bold text-4xl text-[#042433] mb-4">Our teams</h2>

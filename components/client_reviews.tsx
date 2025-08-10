@@ -1,18 +1,30 @@
 import Image from "next/image"
+import { MoveRight , MoveLeft } from "lucide-react"
 export default function ClientReviews(){
 
     return(
-        <div className="w-full h-140 bg-white">
+        <div className="w-full h-140 bg-white mb-20">
 
             <div className="max-w-[1080px] mx-auto h-[325px]  flex flex-row justify-center items-center  ">
 
-                <div className="w-115  h-full ">
+                <div className="w-115  h-full relative ">
 
-                    <div className="flex flex-col pr-7 ">
+                    <div className="flex flex-col pr-7  ">
 
                         <h2 className="font-bold text-4xl max-w-[420px] pb-6 text-[#042433]">Que Disent Nos Clients Précieux</h2>
 
                         <p className="max-w-[410px] font-medium text-[15px] pb-6 text-[#042433A3]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        <div className="flex flex-row gap-4 absolute bottom-0 ">
+
+                            <div className="h-10 w-17 rounded-3xl border-2 border-[#042433] flex items-center justify-center cursor-pointer hover:bg-[#042433] hover:text-white ">
+                                <MoveLeft className="" />
+                            </div>
+                            <div className="h-10 w-17 rounded-3xl border-2 border-[#042433] bg-[#042433] flex items-center justify-center cursor-pointer ">
+                                <MoveRight className="text-white" />
+                            </div>
+
+                        </div>
                         
                         
 

@@ -15,7 +15,32 @@ export default function Footer() {
 
 
 
-                <div className=" max-w-[1080px] mx-auto flex md:flex-row flex-col justify-around items-start pt-42  ">
+                <div className=" relative max-w-[1080px] mx-auto flex md:flex-row flex-col justify-around items-start pt-42  ">
+
+                    <div className="w-[1080px] h-44 bg-[#042433] absolute -top-22 ">
+
+                        <div className="flex flex-row justify-between items-center mx-auto p-15">
+
+
+                            <h2 className="text-white text-3xl font-bold max-w-[280px]">Abonnez-Vous À La Newsletter</h2>
+                            <input className="w-90 h-10 rounded-2xl bg-white border-none outline-none p-4 " type="text" placeholder="Your email addresse"/>
+
+
+                            <a
+                                href="https://www.linkedin.com/company/p-prime/posts/?feedView=all"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-[#ffffff] text-[#002639]  text-[14px] px-6 py-3  bottom-15  rounded-full flex items-center gap-1 font-bold transition-all group
+                             hover:bg-[#3da5d9] hover:text-white"
+                            >
+                                Découvrez pprimer
+                               
+                            </a>
+
+                        </div>
+
+
+                    </div>
 
 
 
