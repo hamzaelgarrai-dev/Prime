@@ -13,7 +13,7 @@ export default function Partenaires(){
                     <div className="w-[200px] h-[200px]  p-6 flex justify-center items-center hover:bg-[#7D939D38]"><img src="Assets/Company/comaprim.png" alt="comaprim" /></div>
                     <div className="w-[200px] h-[200px]  p-6 flex justify-center items-center hover:bg-[#7D939D38]"><img src="Assets/Company/soremed.png" alt="sormed" /></div>
                     <div className="w-[200px] h-[200px]  p-6 flex justify-center items-center hover:bg-[#7D939D38]"><img src="Assets/Company/azura.png" alt="azura" /></div>
-                    <div className="w-[200px] h-[200px]  p-6 flex justify-center items-center hover:bg-[#7D939D38]"><img src="Assets/Company/copag.png" alt="copag" /></div>
+                    <div className="w-[200px] h-[200px]  p-6 flex justify-center items-center hover:bg-[#7D939D38]"><img src="Assets/Company/Copag.png" alt="copag" /></div>
                     <div className="w-[200px] h-[200px]  p-6 flex justify-center items-center hover:bg-[#7D939D38]"><img src="Assets/Company/gpc.png" alt="gpc" /></div>
                     <div className="w-[200px] h-[200px]  p-6 flex justify-center items-center hover:bg-[#7D939D38]"><img src="Assets/Company/domaine.png" alt="domaine" /></div>
                     <div className="w-[200px] h-[200px]  p-6 flex justify-center items-center hover:bg-[#7D939D38]"><img src="Assets/Company/doha.png" alt="doha" /></div>
