@@ -87,27 +87,27 @@ export default function Navbar (){
               >
                 Accueil
               </Link>
-              <Link href="/a-propos" 
+              <Link href="/A-propos" 
               className={`transition-colors text-md font-semibold mt-2 ${
-                  pathname === "/a-propos" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
+                  pathname === "/A-propos" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
                 }`}
               >                à propos
               </Link>
-              <Link href="/businessUnits" 
+              <Link href="/Business-units" 
               className={`transition-colors text-md font-semibold mt-2 ${
-                  pathname === "/businessUnits" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
+                  pathname === "/Business-units" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
                 }`}
               >                business units
               </Link>
-              <Link href="/secteurs-activite" 
+              <Link href="/Secteur-activite" 
               className={`transition-colors text-md font-semibold mt-2 ${
-                  pathname === "/secteurs-activite" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
+                  pathname === "/Secteur-activite" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
                 }`}
               >                Secteurs d&apos;activité
               </Link>
-              <Link href="/nous-rejoindre" 
+              <Link href="/Nous-rejoindre" 
                 className={`transition-colors text-md font-semibold mt-2 ${
-                  pathname === "/nous-rejoindre" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
+                  pathname === "/Nous-rejoindre" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"
                 }`}
               >
                 Nous rejoindre

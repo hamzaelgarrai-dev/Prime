@@ -13,7 +13,6 @@ export default function Home() {
     <>
 
     <Hero></Hero>
-    
     <HeroButtomCard></HeroButtomCard>
     <StatsBanner></StatsBanner>
     <SecteurActivite></SecteurActivite>

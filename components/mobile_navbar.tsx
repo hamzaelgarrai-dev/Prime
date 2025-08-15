@@ -40,30 +40,30 @@ export default function Mobile_Navbar (){
                 Accueil
               </Link>
               <Link
-                href="/a-propos"
+                href="/A-propos"
                 onClick={handleLinkClick}
-                className={`transition-colors text-sm font-bold ${pathname === "/a-propos" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"}`}
+                className={`transition-colors text-sm font-bold ${pathname === "/A-propos" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"}`}
               >
                 à propos
               </Link>
               <Link
-                href="/businessUnits"
+                href="/Business-units"
                 onClick={handleLinkClick}
-                className={`transition-colors text-sm font-bold ${pathname === "/businessUnits" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"}`}
+                className={`transition-colors text-sm font-bold ${pathname === "/Business-units" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"}`}
               >
                 business Units
               </Link>
               <Link
-                href="/secteurs-activite"
+                href="/Secteur-activite"
                 onClick={handleLinkClick}
-                className={`transition-colors text-sm font-bold ${pathname === "/secteurs-activite" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"}`}
+                className={`transition-colors text-sm font-bold ${pathname === "/Secteur-activite" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"}`}
               >
                 Secteurs d&apos;activité
               </Link>
               <Link
-                href="/nous-rejoindre"
+                href="/Nous-rejoindre"
                 onClick={handleLinkClick}
-                className={`transition-colors text-sm font-bold ${pathname === "/nous-rejoindre" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"}`}
+                className={`transition-colors text-sm font-bold ${pathname === "/Nous-rejoindre" ? "text-[#3da5d9]" : "text-[#002639] hover:text-[#3da5d9]"}`}
               >
                 Nous rejoindre
               </Link>
