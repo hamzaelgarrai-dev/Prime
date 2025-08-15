@@ -119,18 +119,18 @@ export default function Navbar (){
          href="https://www.linkedin.com/company/p-prime/posts/?feedView=all"
          target="_blank"
          rel="noopener noreferrer"
-         className="bg-[#ffffff] text-[#002639]  text-xs px-6 py-3 ml-32 rounded-full flex items-center gap-1 font-bold transition-all group
+         className="bg-[#042433] text-white  text-xs px-6 py-3 ml-32 rounded-full flex items-center gap-1 font-bold transition-all group
              hover:bg-[#3da5d9] hover:text-white"
 >
           Découvrez pprimer
           <div
-            className="bg-[#002639] border border-white w-6 h-6 rounded-2xl ml-2  flex items-center justify-center transition-all
+            className="bg-white border border-white w-6 h-6 rounded-2xl ml-2  flex items-center justify-center transition-all
                        group-hover:bg-[#3da5d9] group-hover:border-white"
           >
 
             
             <ArrowUpRight
-              className="w-4 h-4 text-white transition-transform duration-300 rotate-45
+              className="w-4 h-4 text-[#042433] transition-transform duration-300 rotate-45
                          group-hover:rotate-0 group-hover:text-[#ffffff]"
             />
           </div>
