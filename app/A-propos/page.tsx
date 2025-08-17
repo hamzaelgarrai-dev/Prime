@@ -1,6 +1,18 @@
+import ABOUTHERO from "@/components/a_propos-page-hero";
+import ClientReviews from "@/components/client_reviews";
+import LEARDERSHIP from "@/components/leadership";
+import Partenaires from "@/components/partenaires";
+import StatsBanner from "@/components/stats_banner";
+
 export default function APROPOS(){
     return(
 
-        <div>this is a propos page</div>
+        <>
+        <ABOUTHERO></ABOUTHERO>
+        <Partenaires></Partenaires>
+        <LEARDERSHIP></LEARDERSHIP>
+        <StatsBanner></StatsBanner>
+        <ClientReviews></ClientReviews>
+        </>
     )
 }

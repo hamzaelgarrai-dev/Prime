@@ -5,7 +5,7 @@ export default function SecteurActivite() {
 
         <div className="bg-white w-full h-[950px]">
 
-            <div className="mx-auto flex flex-col justify-center items-center pt-30">
+            <div className="mx-auto flex flex-col justify-center items-center pt-10">
 
                 <h2 className="font-bold  text-4xl text-[#042433] pb-2.5">Secteur d'activite</h2>
                 <p className="font-medium text-[#042433A3] pb-20">Ensemble, pour un monde plus lumineux, vert et intelligent.</p>

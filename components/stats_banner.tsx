@@ -37,7 +37,7 @@ export default function StatsBanner() {
 
     return (
 
-        <section ref={sectionRef} className="bg-[#F3F7F8]">
+        <section ref={sectionRef} className="bg-[#F3F7F8] mb-25">
 
             <div className=" w-full h-[330px] -mt-24">
 
