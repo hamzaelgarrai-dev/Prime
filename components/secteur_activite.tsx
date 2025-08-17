@@ -3,7 +3,7 @@ export default function SecteurActivite() {
 
     return (
 
-        <div className="bg-white w-full h-[950px]">
+        <div className="bg-white w-full h-[910px]">
 
             <div className="mx-auto flex flex-col justify-center items-center pt-10">
 
