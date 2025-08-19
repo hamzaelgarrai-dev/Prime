@@ -4,7 +4,7 @@ import LEARDERSHIP from "@/components/leadership";
 import Partenaires from "@/components/partenaires";
 import StatsBanner from "@/components/stats_banner";
 
-export default function APROPOS(){
+export default function APROPOSPage(){
     return(
 
         <>
